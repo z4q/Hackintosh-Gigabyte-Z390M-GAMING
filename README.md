@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.6 (19G73) Catalina and OpenCore 0.6.0
+Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.0
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -13,60 +13,53 @@ Verified working with macOS version 10.15.6 (19G73) Catalina and OpenCore 0.6.0
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 
-## Updates log
+## Updates
+Date 2020-08-18 / Version 1.6.2
+Fixed GFX frequency to 1.2Ghz 
+
+Date 2020-08-14 / Version 1.6.1
+Verified working with 10.15.6 (19G2021)
 
 Date 2020-08-04 / Version 1.6.0
-
 Upgrade to OpenCore 0.6.0 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 Date 2020-07-05 / Version 1.5.0
-
 Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release, waiting for 1.6.0.
 
 Date 2020-07-05 / Version 1.4.0
-
 Waiting for OC 0.6.0 release, Optimized some kexts and ACPI aml files.
 
 Date 2020-06-30 / Version 1.3.0
-
 10.15.5 (19F2200) Verified, updates ACPI aml files. Finally, fixed sleep issues, update BIOS file, then flash new BIOS.
 
 Date 2020-06-10 / Version 1.2.0
-
 Gigabyte GC-TITAN RIDGE supported, pls ref how to hard-flash BIOS.
 
 Date 2020-06-03 / Version 1.1.0
-
 Fixed wakeup issues some applications was freeze.
 
 Date 2020-06-03 / Version 1.0.1
-
 Fixed H.264/H.265 supported.
 
 Date 2020-06-02 / Version 1.0.0
-
 Final Release 1.0.0, 10.15.5 (19F101) well done, OC 0.5.9 and Kexts updates.
 
 Date 2020-05-26 / Version 0.0.9
-
 Prepare to release 1.0.0, waiting 10.15.5 version to publish to App Store.
 
 Date 2020-05-24 / Version 0.0.3
-
 Upload some kexts files.
 
 Date 2020-05-14 / Version 0.0.2
-
 Upload mod BIOS based on 'F9g'.
 
 Date 2020-05-11 / Version 0.0.1
-
 First inital commits.
 
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.0 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.6 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.1 |
@@ -109,7 +102,7 @@ Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | For backup / Time Machine
 If you want a smooth experience using wireless functionalities such as AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, only a specific range of wifi adapters are recommended: **BCM94360CD/BCM943602CDP/BCM943602CS**
 
 
-## BIOS Setting
+## BIOS Settings
 
 Based on F9g version.
 
@@ -215,8 +208,9 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming](https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming)
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
 * [https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580)
+* [https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore](https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore)
 * [https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/](https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/)
-* [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
+* [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/)
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 
@@ -229,3 +223,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ![TB3](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3.png?raw=true)
 ![TB3PCI](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3pci.png?raw=true)
 ![SSD](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSD.png?raw=true)
+![USB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/USB.png?raw=true)
+![RAMSlots](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/RAMSlots.png?raw=true)
+![VideoCard](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/VideoCard.png?raw=true)
+
